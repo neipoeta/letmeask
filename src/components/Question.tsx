@@ -19,7 +19,7 @@ export function Question({
     author,
     isAnswered = false,
     isHighlighted = false,
-    children,
+    children
 }: QuestionProps) {
     return (
         <div className={cx(
